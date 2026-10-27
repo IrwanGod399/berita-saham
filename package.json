@@ -1,0 +1,16 @@
+{
+  "name": "berita-saham",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pengumpul berita saham Indonesia (IDX, RSS media, Google News) untuk dinilai oleh Claude",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}
